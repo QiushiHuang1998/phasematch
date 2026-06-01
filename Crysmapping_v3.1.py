@@ -5,14 +5,6 @@ Robust supercell matching between two crystals.
 
 This version keeps the original script's fast HNF + GA idea, but fixes the
 main correctness issues:
-  - command line inputs instead of hard-coded POSCAR names only;
-  - row-HNF-aware crossover/mutation, so children remain valid HNF matrices;
-  - Angstrom-based periodic shuffle distances instead of raw fractional RMSD;
-  - origin-shift search before Hungarian assignment;
-  - independent unimodular Q reduction for equivalent, less skewed supercells;
-  - neighbor-image Cartesian distance checks for skewed cells;
-  - optional spglib-based structure deduplication;
-  - exported POSCAR pairs are reordered by the actual atom assignment;
   - optional bounded exhaustive mode for small determinant ranges;
   - per-candidate metrics are saved for reproducibility.
 
