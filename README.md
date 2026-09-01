@@ -9,6 +9,8 @@ Genetic search for supercell matching between two crystals with:
 - Elitist GA with tournament selection + crossover + mutation
 - Robust initialization with fallback diagonal enumeration (no empty population)
 - Export top-K POSCARs + print & save best H1/H2 (txt/npy/json)
+
+
 Author: Qiu-Shi Huang 
 Ref：
 [1]https://www.pnas.org/doi/10.1073/pnas.2318341121
